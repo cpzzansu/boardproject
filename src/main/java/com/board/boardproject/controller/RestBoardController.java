@@ -24,7 +24,7 @@ public class RestBoardController {
     Board board = new Board();
     board.setBoardContent(boardContent);
 
-    //boardService.addBoard(board, files);
+    boardService.addBoard(board, files);
    
     return ResponseEntity.ok("파일업로드를 하였습니다.: ");
   }

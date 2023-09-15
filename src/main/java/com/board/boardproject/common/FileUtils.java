@@ -16,16 +16,21 @@ import java.util.List;
 public class FileUtils {
 
     public List<BoardFile> parseFileInfo(int boardCode, List<MultipartFile> files) throws Exception{
-        if(files == null && files.isEmpty()){
+        if (files == null || files.isEmpty()) {
             return null;
         }
         List<BoardFile> fileList = new ArrayList<>();
 
         DateTimeFormatter format = DateTimeFormatter.ofPattern("yyyyMMdd");
         ZonedDateTime current = ZonedDateTime.now();
-        String path = "images/"+current.format(format);
+
+        // 사용자 홈 디렉토리를 기반으로 저장 경로 설정
+        String userHome = System.getProperty("user.home");
+        String path = userHome + "/images/" + current.format(format);
+
         File file = new File(path);
-        if(file.exists() == false){
+        if (!file.exists()) {
+            System.out.println("?");
             file.mkdirs();
         }
 
