@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ksmart47.cbtool.mapper.BoardMapper">
+
+<resultMap id="boardResultMap" type="Board">
+    <id column="board_code" property="boardCode"/>
+    <result column="member_email" property="memberEmail"/>
+    <result column="member_name" property="memberName"/>
+    <result column="board_content" property="boardContent"/>
+    <result column="board_regist_time" property="boardRegistTime"/>
+</resultMap>
+<resultMap id="boardFileResultMap" type="BoardFile">
+<id column="idx" property="idx" />
+<result column="board_code" property="boardCode" />
+<result column="original_file_name" property="originalFileName" />
+<result column="stored_file_path" property="storedFilePath" />
+<result column="file_size" property="fileSize" />
+</resultMap>
+
+<insert id="addBoard" parameterType="Board" useGeneratedKeys="true" keyProperty="boardCode">
+INSERT INTO board
+(
+member_email,
+member_name,
+board_content,
+board_regist_time
+)
+VALUES
+(
+'cpzzansu@gmail.com',
+'김준수',
+#{boardContent},
+NOW()
+)
+</insert>
+<insert id="addBoardFileList" parameterType="java.util.List">
+<![CDATA[
+        INSERT INTO board_file
+        (
+          board_code, original_file_name, stored_file_path, file_size,
+          creator_email, created_datetime
+        )
+        VALUES
+    ]]>
+<foreach collection="list" item="item" separator=",">
+    (
+    #{item.boardCode},
+    #{item.originalFileName},
+    #{item.storedFilePath},
+    #{item.fileSize},
+    'admin',
+    NOW()
+    )
+</foreach>
+</insert>
+
+</mapper>
