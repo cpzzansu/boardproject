@@ -12,11 +12,12 @@
     <result column="board_regist_time" property="boardRegistTime"/>
 </resultMap>
 <resultMap id="boardFileResultMap" type="BoardFile">
-<id column="idx" property="idx" />
-<result column="board_code" property="boardCode" />
-<result column="original_file_name" property="originalFileName" />
-<result column="stored_file_path" property="storedFilePath" />
-<result column="file_size" property="fileSize" />
+    <id column="idx" property="idx" />
+    <result column="board_code" property="boardCode" />
+    <result column="original_file_name" property="originalFileName" />
+    <result column="image_source_path" property="imageSourcePath" />
+    <result column="stored_file_path" property="storedFilePath" />
+    <result column="file_size" property="fileSize" />
 </resultMap>
     <insert id="addBoard" parameterType="Board" useGeneratedKeys="true" keyProperty="boardCode">
         INSERT INTO board
@@ -38,7 +39,7 @@
         <![CDATA[
             INSERT INTO board_file
             (
-              board_code, original_file_name, stored_file_path, file_size,
+              board_code, original_file_name, stored_file_path, image_source_path, file_size,
               creator_email, created_datetime
             )
             VALUES
@@ -48,11 +49,32 @@
             #{item.boardCode},
             #{item.originalFileName},
             #{item.storedFilePath},
+            #{item.imageSourcePath},
             #{item.fileSize},
             'cpzzansu@gmail.com',
             NOW()
             )
         </foreach>
     </insert>
+    <select id="getBoard" resultMap="boardResultMap">
+        SELECT
+            board_code,
+            member_email,
+            member_name,
+            board_content,
+            board_regist_time
+        FROM
+            board
+    </select>
+    <select id="getBoardFile" parameterType="int" resultMap="boardFileResultMap">
+        SELECT
+            original_file_name,
+            stored_file_path,
+            image_source_path
+        FROM
+            board_file
+        WHERE
+            board_code = #{boardCode}
+    </select>
 
 </mapper>

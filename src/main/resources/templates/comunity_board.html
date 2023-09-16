@@ -101,7 +101,7 @@
           </div>
           <!-- 메인 컨텐츠 사진 -->
           <div>
-            <img src="/img/sucess.jpg" class="main-content-img" />
+            <img src="/images/20230915/200855143577750.png" class="main-content-img" />
           </div>
           <!-- 메인 컨텐츠 댓글, 공유 알림 -->
           <div class="d-flex flex-row-reverse">
@@ -205,6 +205,14 @@
       $contentInputBtn.addEventListener("click", function () {
         $constentAddModal.show();
       });
+
+      fetch("/board", {
+        method: "GET",
+      })
+        .then((response) => response.json())
+        .then((data) => console.log(data))
+        .catch((error) => console.log("Error:", error));
+
       function clearDefaultText(element) {
         if (element.innerText === "무슨 생각을 하고 있나요?") {
           element.innerText = "";
@@ -294,7 +302,7 @@
       }
 
       boardAddBtn.addEventListener("click", function () {
-        const $boardContent = document.getElementById('boardContent');
+        const $boardContent = document.getElementById("boardContent");
         // 게시판 본문 내용
         let boardContent = $boardContent.innerText;
         // 게시판 이미지 파일
@@ -313,9 +321,8 @@
           method: "POST",
           body: formData,
         })
-          .then((response) => response.json())
-          .then((data) => {
-            console.log(data);
+          .then((response) => {
+            location.reload();
           })
           .catch((error) => {
             console.error("There was an error fetching the data:", error);

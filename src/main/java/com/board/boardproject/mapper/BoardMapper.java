@@ -13,4 +13,8 @@ public interface BoardMapper {
 
     void addBoardFileList(List<BoardFile> list);
 
+    List<Board> getBoard();
+
+    List<BoardFile> getBoardFile(int boardCode);
+
 }

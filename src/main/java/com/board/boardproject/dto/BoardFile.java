@@ -8,7 +8,8 @@ public class BoardFile {
     private int boardCode;
     private String originalFileName;
     private String storedFilePath;
+    private String imageSourcePath;
     private Long fileSize;
-    private String creator_email;
-    private String creator_datetime;
+    private String creatorEmail;
+    private String creatorDatetime;
 }

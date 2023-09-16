@@ -27,6 +27,7 @@ public class FileUtils {
         // 사용자 홈 디렉토리를 기반으로 저장 경로 설정
         String userHome = System.getProperty("user.home");
         String path = userHome + "/images/" + current.format(format);
+        String imageSourcePath = "/images/" + current.format(format);
 
         File file = new File(path);
         if (!file.exists()) {
@@ -59,11 +60,16 @@ public class FileUtils {
             boardFile.setFileSize(multipartFile.getSize());
             boardFile.setOriginalFileName(multipartFile.getOriginalFilename());
             boardFile.setStoredFilePath(path + "/" + newFileName);
+            boardFile.setImageSourcePath(imageSourcePath + "/" + newFileName);
             fileList.add(boardFile);
 
             file = new File(path + "/" + newFileName);
             multipartFile.transferTo(file);
         }
         return fileList;
+    }
+
+    public void stringifyFileInfo(BoardFile boardFile){
+
     }
 }
