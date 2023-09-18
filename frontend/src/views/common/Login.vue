@@ -22,14 +22,14 @@
           <form class="row g-3 d-flex justify-content-center" id="login-form">
             <div class="col-auto input-box">
               <label for="inputPassword2" class="visually-hidden">이메일 또는 전화번호</label>
-              <input type="password" class="form-control login-input " id="inputPassword1" placeholder="이메일 또는 전화번호">
+              <input type="text" class="form-control login-input" v-model="memberEmail" placeholder="이메일 또는 전화번호">
             </div>
             <div class="col-auto input-box">
               <label for="inputPassword2" class="visually-hidden">비밀번호</label>
-              <input type="password" class="form-control login-input" id="inputPassword2" placeholder="비밀번호">
+              <input type="password" class="form-control login-input" v-model="memberPw"  id="inputPassword2" placeholder="비밀번호">
             </div>
             <div class="col-auto btn-box">
-              <div class="form-control login-input" id="loginBtn" >로그인</div>
+              <div class="form-control login-input" @click="LoginAction" id="loginBtn">로그인</div>
             </div>
             <div class="d-flex justify-content-center">
               <div class="bottom-border"><a href="#">비밀번호를 잊으셨나요?</a></div>
@@ -83,6 +83,17 @@
 <script>
 export default {
   name: 'LoginPage',
+  data() {
+    return{
+      memberEmail: '',
+      memberPw: '',
+    }
+  },
+  methods: {
+    LoginAction() {
+      console.log(this.memberEmail);
+    }
+  }
 }
 </script>
 <style>
