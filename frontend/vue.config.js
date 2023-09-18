@@ -2,6 +2,7 @@ const { defineConfig } = require('@vue/cli-service')
 module.exports = {
 	outputDir: '../src/main/resources/static',
 	devServer: {
+		port: 8084,
 		proxy: {
 			'/api': {
 				target: 'http://localhost:90', // 스프링 부트 서버 주소

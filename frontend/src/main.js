@@ -15,19 +15,7 @@ Vue.prototype.$http = axios;
 Vue.use(BootstrapVue);
 Vue.use(IconsPlugin);
 
-let routes = [
-  {
-    path: "/",
-    name: "home",
-    component: Home,
-  },
-];
-
-let router = new VueRouter({
-  routes
-});
-
 new Vue({
   render: h => h(App),
-  router
+
 }).$mount('#app');

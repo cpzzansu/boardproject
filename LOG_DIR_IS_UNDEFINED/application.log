@@ -1,0 +1,226 @@
+10:25:14.835 [restartedMain] INFO  c.b.b.BoardprojectApplication - Starting BoardprojectApplication using Java 17.0.7 with PID 23496 (C:\Users\user\IdeaProjects\boardproject\target\classes started by user in C:\Users\user\IdeaProjects\boardproject)
+10:25:14.837 [restartedMain] INFO  c.b.b.BoardprojectApplication - No active profile set, falling back to 1 default profile: "default"
+10:25:15.085 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+10:25:15.087 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+10:25:15.717 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+10:25:15.727 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+10:25:16.245 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 90 (http)
+10:25:16.328 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1241 ms
+10:25:16.963 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:25:17.280 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@783193ba
+10:25:17.282 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:25:17.413 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+10:25:17.444 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 90 (http) with context path ''
+10:25:17.451 [restartedMain] INFO  c.b.b.BoardprojectApplication - Started BoardprojectApplication in 3.017 seconds (process running for 3.713)
+10:25:18.529 [http-nio-90-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:25:18.530 [http-nio-90-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+10:28:28.800 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+10:28:28.815 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:28:28.853 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+10:28:28.926 [restartedMain] INFO  c.b.b.BoardprojectApplication - Starting BoardprojectApplication using Java 17.0.7 with PID 23496 (C:\Users\user\IdeaProjects\boardproject\target\classes started by user in C:\Users\user\IdeaProjects\boardproject)
+10:28:28.927 [restartedMain] INFO  c.b.b.BoardprojectApplication - No active profile set, falling back to 1 default profile: "default"
+10:28:29.067 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+10:28:29.069 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
+10:28:29.128 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 90 (http)
+10:28:29.149 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 221 ms
+10:28:29.237 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+10:28:29.309 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@ee7a758
+10:28:29.310 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+10:28:29.324 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+10:28:29.331 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 90 (http) with context path ''
+10:28:29.333 [restartedMain] INFO  c.b.b.BoardprojectApplication - Started BoardprojectApplication in 0.436 seconds (process running for 195.595)
+10:28:29.334 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+10:30:06.288 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+10:30:06.298 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+10:30:06.337 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+10:30:06.410 [restartedMain] INFO  c.b.b.BoardprojectApplication - Starting BoardprojectApplication using Java 17.0.7 with PID 23496 (C:\Users\user\IdeaProjects\boardproject\target\classes started by user in C:\Users\user\IdeaProjects\boardproject)
+10:30:06.411 [restartedMain] INFO  c.b.b.BoardprojectApplication - No active profile set, falling back to 1 default profile: "default"
+10:30:06.559 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+10:30:06.562 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
+10:30:06.617 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 90 (http)
+10:30:06.637 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 225 ms
+10:30:06.721 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+10:30:06.776 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@406ee282
+10:30:06.776 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+10:30:06.791 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+10:30:06.797 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 90 (http) with context path ''
+10:30:06.801 [restartedMain] INFO  c.b.b.BoardprojectApplication - Started BoardprojectApplication in 0.417 seconds (process running for 293.063)
+10:30:06.802 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+10:34:44.328 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+10:34:44.341 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+10:34:44.378 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+10:34:44.435 [restartedMain] INFO  c.b.b.BoardprojectApplication - Starting BoardprojectApplication using Java 17.0.7 with PID 23496 (C:\Users\user\IdeaProjects\boardproject\target\classes started by user in C:\Users\user\IdeaProjects\boardproject)
+10:34:44.435 [restartedMain] INFO  c.b.b.BoardprojectApplication - No active profile set, falling back to 1 default profile: "default"
+10:34:44.563 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+10:34:44.565 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+10:34:44.619 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 90 (http)
+10:34:44.642 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 206 ms
+10:34:44.721 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+10:34:44.783 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@68542143
+10:34:44.783 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+10:34:44.796 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+10:34:44.803 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 90 (http) with context path ''
+10:34:44.805 [restartedMain] INFO  c.b.b.BoardprojectApplication - Started BoardprojectApplication in 0.395 seconds (process running for 571.068)
+10:34:44.806 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+10:38:02.603 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+10:38:02.612 [Thread-15] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+10:38:02.651 [Thread-15] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+10:38:02.710 [restartedMain] INFO  c.b.b.BoardprojectApplication - Starting BoardprojectApplication using Java 17.0.7 with PID 23496 (C:\Users\user\IdeaProjects\boardproject\target\classes started by user in C:\Users\user\IdeaProjects\boardproject)
+10:38:02.710 [restartedMain] INFO  c.b.b.BoardprojectApplication - No active profile set, falling back to 1 default profile: "default"
+10:38:02.842 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+10:38:02.844 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+10:38:02.909 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 90 (http)
+10:38:02.929 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 214 ms
+10:38:03.039 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+10:38:03.102 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@4ccfcd32
+10:38:03.102 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+10:38:03.116 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+10:38:03.123 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 90 (http) with context path ''
+10:38:03.126 [restartedMain] INFO  c.b.b.BoardprojectApplication - Started BoardprojectApplication in 0.44 seconds (process running for 769.388)
+10:38:03.126 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+10:39:09.410 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+10:39:09.420 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+10:39:09.456 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+10:39:09.518 [restartedMain] INFO  c.b.b.BoardprojectApplication - Starting BoardprojectApplication using Java 17.0.7 with PID 23496 (C:\Users\user\IdeaProjects\boardproject\target\classes started by user in C:\Users\user\IdeaProjects\boardproject)
+10:39:09.518 [restartedMain] INFO  c.b.b.BoardprojectApplication - No active profile set, falling back to 1 default profile: "default"
+10:39:09.642 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+10:39:09.645 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
+10:39:09.699 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 90 (http)
+10:39:09.719 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 200 ms
+10:39:09.797 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+10:39:09.853 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@3e4a4bd0
+10:39:09.853 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+10:39:09.866 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+10:39:09.873 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 90 (http) with context path ''
+10:39:09.876 [restartedMain] INFO  c.b.b.BoardprojectApplication - Started BoardprojectApplication in 0.38 seconds (process running for 836.138)
+10:39:09.877 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+10:39:19.549 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+10:39:19.558 [Thread-23] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+10:39:19.594 [Thread-23] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+10:39:19.651 [restartedMain] INFO  c.b.b.BoardprojectApplication - Starting BoardprojectApplication using Java 17.0.7 with PID 23496 (C:\Users\user\IdeaProjects\boardproject\target\classes started by user in C:\Users\user\IdeaProjects\boardproject)
+10:39:19.651 [restartedMain] INFO  c.b.b.BoardprojectApplication - No active profile set, falling back to 1 default profile: "default"
+10:39:19.779 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+10:39:19.781 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+10:39:19.834 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 90 (http)
+10:39:19.856 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 204 ms
+10:39:19.937 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+10:39:20.008 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@57401049
+10:39:20.008 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+10:39:20.022 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+10:39:20.028 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 90 (http) with context path ''
+10:39:20.031 [restartedMain] INFO  c.b.b.BoardprojectApplication - Started BoardprojectApplication in 0.399 seconds (process running for 846.293)
+10:39:20.033 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+10:44:35.739 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+10:44:35.748 [Thread-27] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+10:44:35.781 [Thread-27] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+10:44:35.829 [restartedMain] INFO  c.b.b.BoardprojectApplication - Starting BoardprojectApplication using Java 17.0.7 with PID 23496 (C:\Users\user\IdeaProjects\boardproject\target\classes started by user in C:\Users\user\IdeaProjects\boardproject)
+10:44:35.829 [restartedMain] INFO  c.b.b.BoardprojectApplication - No active profile set, falling back to 1 default profile: "default"
+10:44:35.967 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+10:44:35.969 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+10:44:36.032 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 90 (http)
+10:44:36.052 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 218 ms
+10:44:36.148 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+10:44:36.210 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@36af648a
+10:44:36.210 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+10:44:36.224 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+10:44:36.231 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 90 (http) with context path ''
+10:44:36.234 [restartedMain] INFO  c.b.b.BoardprojectApplication - Started BoardprojectApplication in 0.429 seconds (process running for 1162.496)
+10:44:36.234 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+10:45:16.843 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+10:45:16.853 [Thread-31] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
+10:45:16.887 [Thread-31] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
+10:45:16.935 [restartedMain] INFO  c.b.b.BoardprojectApplication - Starting BoardprojectApplication using Java 17.0.7 with PID 23496 (C:\Users\user\IdeaProjects\boardproject\target\classes started by user in C:\Users\user\IdeaProjects\boardproject)
+10:45:16.935 [restartedMain] INFO  c.b.b.BoardprojectApplication - No active profile set, falling back to 1 default profile: "default"
+10:45:17.058 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+10:45:17.060 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+10:45:17.119 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 90 (http)
+10:45:17.150 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 214 ms
+10:45:17.257 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Starting...
+10:45:17.333 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-9 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@21913d5a
+10:45:17.333 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Start completed.
+10:45:17.346 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+10:45:17.354 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 90 (http) with context path ''
+10:45:17.357 [restartedMain] INFO  c.b.b.BoardprojectApplication - Started BoardprojectApplication in 0.442 seconds (process running for 1203.62)
+10:45:17.358 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+10:46:25.606 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+10:46:25.616 [Thread-35] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown initiated...
+10:46:25.657 [Thread-35] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown completed.
+10:46:25.710 [restartedMain] INFO  c.b.b.BoardprojectApplication - Starting BoardprojectApplication using Java 17.0.7 with PID 23496 (C:\Users\user\IdeaProjects\boardproject\target\classes started by user in C:\Users\user\IdeaProjects\boardproject)
+10:46:25.710 [restartedMain] INFO  c.b.b.BoardprojectApplication - No active profile set, falling back to 1 default profile: "default"
+10:46:25.840 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+10:46:25.842 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
+10:46:25.897 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 90 (http)
+10:46:25.919 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 208 ms
+10:46:26.007 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Starting...
+10:46:26.068 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@248a6ae0
+10:46:26.068 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Start completed.
+10:46:26.082 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+10:46:26.090 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 90 (http) with context path ''
+10:46:26.094 [restartedMain] INFO  c.b.b.BoardprojectApplication - Started BoardprojectApplication in 0.406 seconds (process running for 1272.356)
+10:46:26.095 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+10:46:52.251 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+10:46:52.262 [Thread-39] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown initiated...
+10:46:52.295 [Thread-39] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown completed.
+10:46:52.351 [restartedMain] INFO  c.b.b.BoardprojectApplication - Starting BoardprojectApplication using Java 17.0.7 with PID 23496 (C:\Users\user\IdeaProjects\boardproject\target\classes started by user in C:\Users\user\IdeaProjects\boardproject)
+10:46:52.351 [restartedMain] INFO  c.b.b.BoardprojectApplication - No active profile set, falling back to 1 default profile: "default"
+10:46:52.483 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+10:46:52.486 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
+10:46:52.552 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 90 (http)
+10:46:52.604 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 252 ms
+10:46:52.692 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Starting...
+10:46:52.752 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@73bbaf74
+10:46:52.752 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Start completed.
+10:46:52.765 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+10:46:52.772 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 90 (http) with context path ''
+10:46:52.776 [restartedMain] INFO  c.b.b.BoardprojectApplication - Started BoardprojectApplication in 0.447 seconds (process running for 1299.038)
+10:46:52.777 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+10:47:13.198 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+10:47:13.210 [Thread-43] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown initiated...
+10:47:13.249 [Thread-43] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown completed.
+10:47:13.318 [restartedMain] INFO  c.b.b.BoardprojectApplication - Starting BoardprojectApplication using Java 17.0.7 with PID 23496 (C:\Users\user\IdeaProjects\boardproject\target\classes started by user in C:\Users\user\IdeaProjects\boardproject)
+10:47:13.318 [restartedMain] INFO  c.b.b.BoardprojectApplication - No active profile set, falling back to 1 default profile: "default"
+10:47:13.466 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+10:47:13.468 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+10:47:13.518 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 90 (http)
+10:47:13.543 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 223 ms
+10:47:13.640 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Starting...
+10:47:13.696 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@319d021e
+10:47:13.696 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Start completed.
+10:47:13.712 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+10:47:13.722 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 90 (http) with context path ''
+10:47:13.726 [restartedMain] INFO  c.b.b.BoardprojectApplication - Started BoardprojectApplication in 0.432 seconds (process running for 1319.988)
+10:47:13.727 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+10:52:48.090 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+10:52:48.101 [Thread-47] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown initiated...
+10:52:48.141 [Thread-47] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown completed.
+10:52:48.202 [restartedMain] INFO  c.b.b.BoardprojectApplication - Starting BoardprojectApplication using Java 17.0.7 with PID 23496 (C:\Users\user\IdeaProjects\boardproject\target\classes started by user in C:\Users\user\IdeaProjects\boardproject)
+10:52:48.203 [restartedMain] INFO  c.b.b.BoardprojectApplication - No active profile set, falling back to 1 default profile: "default"
+10:52:48.352 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+10:52:48.353 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+10:52:48.402 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 90 (http)
+10:52:48.421 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 217 ms
+10:52:48.507 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Starting...
+10:52:48.565 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-13 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@6269da65
+10:52:48.565 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Start completed.
+10:52:48.577 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+10:52:48.584 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 90 (http) with context path ''
+10:52:48.587 [restartedMain] INFO  c.b.b.BoardprojectApplication - Started BoardprojectApplication in 0.411 seconds (process running for 1654.85)
+10:52:48.588 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+10:54:34.129 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+10:54:34.140 [Thread-51] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Shutdown initiated...
+10:54:34.179 [Thread-51] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Shutdown completed.
+10:54:34.232 [restartedMain] INFO  c.b.b.BoardprojectApplication - Starting BoardprojectApplication using Java 17.0.7 with PID 23496 (C:\Users\user\IdeaProjects\boardproject\target\classes started by user in C:\Users\user\IdeaProjects\boardproject)
+10:54:34.232 [restartedMain] INFO  c.b.b.BoardprojectApplication - No active profile set, falling back to 1 default profile: "default"
+10:54:34.355 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+10:54:34.357 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+10:54:34.403 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 90 (http)
+10:54:34.423 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 190 ms
+10:54:34.507 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Starting...
+10:54:34.569 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-14 - Added connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@5e0a1963
+10:54:34.569 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Start completed.
+10:54:34.582 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+10:54:34.590 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 90 (http) with context path ''
+10:54:34.592 [restartedMain] INFO  c.b.b.BoardprojectApplication - Started BoardprojectApplication in 0.381 seconds (process running for 1760.854)
+10:54:34.593 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+10:55:12.529 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Shutdown initiated...
+10:55:12.572 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Shutdown completed.
