@@ -7,8 +7,6 @@
 </template>
 
 <script>
-
-
 import NavigationBar from "@/components/NavigationBar.vue";
 import MainContentInputBox from "@/components/MainContentInputBox.vue";
 import MainContent from "@/components/MainContent.vue";
