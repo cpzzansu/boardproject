@@ -5,6 +5,8 @@ import { BootstrapVue, IconsPlugin } from 'bootstrap-vue';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
 import axios from 'axios';
+import Home from "@/components/Home.vue";
+import VueRouter from 'vue-router';
 
 
 
@@ -13,7 +15,19 @@ Vue.prototype.$http = axios;
 Vue.use(BootstrapVue);
 Vue.use(IconsPlugin);
 
+let routes = [
+  {
+    path: "/",
+    name: "home",
+    component: Home,
+  },
+];
+
+let router = new VueRouter({
+  routes
+});
+
 new Vue({
   render: h => h(App),
-}).$mount('#app')
-
+  router
+}).$mount('#app');
