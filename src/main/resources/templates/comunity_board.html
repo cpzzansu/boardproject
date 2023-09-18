@@ -13,66 +13,8 @@
     <link href="/css/js.css" rel="stylesheet" />
   </head>
   <body>
-    <!-- 네비게이션 바 시작 -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid text-left">
-        <!-- 로고 -->
-        <div class="d-flex">
-          <a class="navbar-brand" id="fsLogo" href="#">
-            <img
-              src="/img/fs_logo.png"
-              alt="Logo"
-              width="50"
-              height="50"
-              class="d-inline-block align-text-top"
-            />
-          </a>
-          <!-- 검색창 -->
-          <form class="search-box d-flex align-items-center" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="FortySeven 검색"
-              aria-label="Search"
-            />
-          </form>
-        </div>
-        <!-- 네비게이션 바 아이콘 -->
-        <div class="center-div d-flex">
-          <a class="navbar-brand nav-icon" href="#"
-            ><img src="/img/nv_home.svg"
-          /></a>
-          <a class="navbar-brand nav-icon" href="#"
-            ><img src="/img/nv_people.svg"
-          /></a>
-          <a class="navbar-brand nav-icon" href="#"
-            ><img src="/img/nv_video.svg"
-          /></a>
-        </div>
-      </div>
-      <!-- profile 사진 -->
-      <div>
-        <img src="/img/nv_profile.png" class="nv-profile" />
-      </div>
-    </nav>
-    <!-- 네비게이션 바 종료 -->
 
-    <div class="d-flex text-right">
-      <div class="main-content">
-        <div>
-          <!-- 상단 id 바 -->
-          <div class="d-flex content-input-bar align-items-center">
-            <img src="/img/nv_profile.png" class="content-input-profile" />
-            <div class="content-input-button" id="contentInputBtn">
-              <div class="content-input-placeholder">
-                무슨 생각을 하고 계신가요?
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- 메인 컨텐츠 종료 -->
+
     <!-- 메인 컨텐츠 시작 -->
     <div class="d-flex text-right">
       <div class="main-content">
@@ -133,65 +75,7 @@
       </div>
     </div>
     <!-- 메인 컨텐츠 종료 -->
-    <!-- 컨텐츠 입력 모달 시작 -->
-    <div class="modal" id="contentAddModal" tabindex="-1">
-      <div class="modal-dialog custom-size">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">게시물 만들기</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <div>
-              <p
-                contenteditable="true"
-                onclick="clearDefaultText(this)"
-                id="boardContent"
-              ></p>
-            </div>
-            <div class="upload-box" id="uploadBox">
-              <div
-                class="image-box d-flex justify-content-center align-items-center"
-              >
-                <img src="/img/image.svg" />
-              </div>
-              <div class="mbJpegPng">
-                <div>최대 5mb 이하 jpeg, png 첨부 가능</div>
-              </div>
-              <input type="file" id="imageFile" style="display: none" />
-              <div
-                class="imageFileBtn d-flex justify-content-center"
-                onclick="document.getElementById('imageFile').click()"
-              >
-                <div
-                  class="image-select d-flex justify-content-center align-items-center"
-                >
-                  <div class="image-select-font">이미지 가져오기</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              Close
-            </button>
-            <button type="button" class="btn btn-primary" id="boardAddBtn">
-              등록하기
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- 컨텐츠 입력 모달 종료 -->
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"

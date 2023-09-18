@@ -1,28 +1,30 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <NavigationBar></NavigationBar>
+    <MainContentInputBox></MainContentInputBox>
+    <MainContent></MainContent>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavigationBar from '@/components/NavigationBar.vue';
+import MainContentInputBox from '@/components/MainContentInputBox.vue';
+import MainContent from "@/components/MainContent.vue";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+      NavigationBar,
+      MainContentInputBox,
+      MainContent,
   }
 }
 </script>
 
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: rgb(236, 236, 236) !important;
 }
 </style>

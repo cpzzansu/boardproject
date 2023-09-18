@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "PartialSansKR-Regular";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/PartialSansKR-Regular.woff2")
@@ -32,32 +33,9 @@ body {
 .login-body {
   background-color: white;
 }
-/* nav 센터 아이콘 div */
-.center-div {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-/* nav 아이콘 */
-.nav-icon {
-  padding-left: 70px;
-  padding-right: 70px;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  border-radius: 10px;
-}
-/* nav 아이콘 마우스 hover */
-.nav-icon:hover {
-  background-color: rgb(229, 229, 229);
-}
-/* profile 양식 */
-.nv-profile {
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
-  margin-right: 20px;
-}
+
+
+
 .main-content {
   width: 600px;
   height: auto;
