@@ -1,5 +1,6 @@
 package com.board.boardproject.repository;
 
+import com.board.boardproject.dto.Member;
 import com.board.boardproject.entity.MemberEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 

@@ -26,9 +26,9 @@ public class MemberEntity {
 
     @Column(nullable = false, updatable = false)
     @CreatedDate // Entity 생성 시간 자동 업데이트
-    private LocalDateTime memberRegistTime;
+    private LocalDateTime memberRegistTime = LocalDateTime.now();
 
     @Column(nullable = false)
     @LastModifiedDate // Entity 수정 시간 자동 업데이트
-    private LocalDateTime memberUpdateTime;
+    private LocalDateTime memberUpdateTime = LocalDateTime.now();
 }

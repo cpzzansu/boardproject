@@ -35,7 +35,7 @@
               <div class="bottom-border"><a href="#">비밀번호를 잊으셨나요?</a></div>
             </div>
             <div class="col-auto btn-box">
-              <div class="form-control btn btn-success" id="addBtn" data-bs-toggle="modal" data-bs-target="#addModal">새 계정 만들기</div>
+              <div class="form-control btn btn-success" id="addBtn" @click="toggleModal">새 계정 만들기</div>
             </div>
           </form>
         </div>
@@ -43,34 +43,50 @@
     </div>
     <!-- 로그인화면 종료 -->
     <!-- 회원가입 모달 시작 -->
-    <div class="modal" id="addModal" tabindex="-1">
+    <b-modal id="modal-lg" size="lg" ref="myModal" title="게시물 만들기" class="custom-size">
+      <template v-slot:modal-header>
+        <div>
+          <h2 class="modal-title">가입하기</h2>
+          <p>빠르고 쉽게 가입할 수 있습니다.</p>
+        </div>
+        <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+            @click="closeModal"
+        ></button>
+      </template>
       <div class="modal-dialog">
         <div class="modal-content">
-          <div class="modal-header row">
-            <div class="d-flex">
-              <h2 class="modal-title">가입하기</h2>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <p>빠르고 쉽게 가입할 수 있습니다.</p>
-          </div>
           <div class="modal-body">
-            <div class="row">
-              <div class="col-md-6 ms-auto">
-                <input class="input-col-6">
+            <div>
+              <div class="col-md-12 ms-auto InputBox">
+                <input
+                    type="text"
+                    placeholder="이메일"
+                    v-model="email"
+                    class="emailInput">
               </div>
-              <div class="col-md-6 ms-auto">
-                <input class="input-col-6">
+              <div class="col-md-12 ms-auto InputBox">
+                <input
+                    type="password"
+                    placeholder="비밀번호"
+                    v-model="password"
+                    class="emailInput"
+                    @keyup.enter="save">
               </div>
             </div>
-            <p>Modal body text goes here.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <div class="addInformation">
+              <p>회원가입을 원하시면 email과 비밀번호를 입력하시고, 회원가입 버튼을 누르시면 됩니다.</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+      <template v-slot:modal-footer>
+        <button type="button" class="btn btn-success" id="saveBtn" @click="save">회원가입하기</button>
+      </template>
+    </b-modal>
     <!-- 회원가입 모달 종료 -->
     <!-- 푸터 시작 -->
     <div class="footer-box">
@@ -81,18 +97,65 @@
 
 </template>
 <script>
+import axios from "axios";
+import { required } from '@vuelidate/validators'
+import { useVuelidate } from '@vuelidate/core'
+
 export default {
   name: 'LoginPage',
   data() {
     return{
       memberEmail: '',
       memberPw: '',
+      emailPlaceholder: '이메일',
+      email: '',
+      password: '',
     }
   },
   methods: {
     LoginAction() {
       console.log(this.memberEmail);
-    }
+    },
+    toggleModal() {
+      this.$refs.myModal.toggle()
+    },
+    closeModal() {
+      this.$refs.myModal.hide()
+    },
+    updateText(event){
+      this.text = event.target.innerText;
+    },
+    saveText() {
+      if(!this.text.trim()){
+        this.text = '';
+      }
+    },
+    async save() {
+      try {
+        let response = await axios.post('/api/member', {
+          memberEmail: this.email,
+          memberPw: this.password,
+        },
+        {
+          headers: {
+            'Authorization': 'Bearer ' + localStorage.getItem('token')
+          },
+        });
+
+        if (response.data) {
+          // 회원가입 성공
+          alert('회원가입되셨습니다.');
+
+          this.email = '';
+          this.password = '';
+
+          this.closeModal();
+        }
+      } catch (error) {
+        console.error("API 요청 중 오류 발생:", error);
+      }
+    },
+
   }
 }
 </script>
@@ -175,5 +238,43 @@ export default {
 .input-col-6 {
   margin-left: 5px;
   margin-right: 5px;
+}
+.InputBox{
+  width: 729px; height: 46px; background: #EFEFEF; border-radius: 3px; border: 1px #C1C1C1 solid;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+[contenteditable]:focus {
+  outline: none;
+}
+p[data-placeholder]:empty::before {
+  content: attr(data-placeholder);
+  color: grey;
+}
+.emailInput{
+  background-color: transparent; /* 배경색을 투명하게 설정 */
+  border: none;                   /* 테두리 제거 */
+  outline: none;
+  margin: auto auto auto 10px;
+  width: 100%;
+}
+input {
+  text-decoration: none;
+  color: #464646;
+}
+.addInformation{
+  margin: 30px auto auto 10px;
+}
+#saveBtn{
+  font-weight: normal;
+  font-size: 18px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #42b72a;
+  border: 0px;
 }
 </style>

@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class LoginController {
 
-    @PostMapping("/member")
-    public ResponseEntity<MemberEntity> save(@RequestBody MemberEntity member) {
-        MemberEntity registeredMember = memberService.save(member);
-        return new ResponseEntity<>(registeredMember, HttpStatus.CREATED);
-    }
+   // @PostMapping("/member")
+   // public ResponseEntity<MemberEntity> save(@RequestBody MemberEntity member) {
+    //    MemberEntity registeredMember = memberService.save(member);
+      //  return new ResponseEntity<>(registeredMember, HttpStatus.CREATED);
+   // }
 }
